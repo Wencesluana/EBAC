@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    color: black;
+    line-height: 1.4;
+}
+
+header {
+    background-color: azure;
+    color: darkolivegreen;
+    padding: 17px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 15px;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+article{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ul li {
+    margin-left: 18px;
+}
+
+aside {
+    background-color: #e0ffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #008b8b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 80px;
+    padding: 5px;
+    border: none;
+    background-color: #008b8b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0066;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+footer::before {
+    content: " =D             ";
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #008b8b;
+    color: wheat;
+}
