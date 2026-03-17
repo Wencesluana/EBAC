@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #2c7be5;
+    color: white;
+    border: none;
+}
+
+    button:hover {
+        background-color: #1a5bbf;
+    }
+
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+}
