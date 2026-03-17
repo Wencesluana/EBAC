@@ -1,0 +1,29 @@
+.header {
+
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background: $cor-primaria;
+    color: white;
+
+    &__logo {
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+}
+
+.nav {
+
+    &__menu {
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+    }
+}

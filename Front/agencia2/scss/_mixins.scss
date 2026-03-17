@@ -1,0 +1,17 @@
+/* container padrão */
+
+@mixin container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* botão padrão */
+
+@mixin botao {
+    padding: 0.8rem 1.2rem;
+    background: $cor-acento;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

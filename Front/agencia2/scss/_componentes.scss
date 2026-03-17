@@ -1,0 +1,41 @@
+.hero {
+    background: $cor-secundaria;
+    padding: $espacamento;
+    text-align: center;
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: $espacamento-pequeno;
+    }
+}
+
+.services {
+    padding: $espacamento;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: $espacamento-pequeno;
+    }
+}
+
+.service-card {
+    background: $cor-secundaria;
+    padding: $espacamento-pequeno;
+    border-radius: 6px;
+
+    &__title {
+        margin-bottom: $espacamento-pequeno;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: $espacamento-pequeno;
+
+    &__button {
+
+        @include botao;
+    }
+}
