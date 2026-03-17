@@ -1,0 +1,18 @@
+.banner {
+    background-image: url("../img/barbearia.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .banner h1 {
+        font-weight: bold;
+    }
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
