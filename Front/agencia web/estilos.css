@@ -1,0 +1,167 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* UTILIDADES */
+
+.section__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: #222;
+    color: white;
+}
+
+.header__logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* NAV */
+
+.nav__menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 6vh 5%;
+    background: #f4f4f4;
+}
+
+.hero__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ABOUT */
+
+.about {
+    padding: 5vh 10%;
+    text-align: center;
+}
+
+/* SERVICES */
+
+.services {
+    padding: 5vh 10%;
+}
+
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.service-card__title {
+    margin-bottom: 0.5rem;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding: 5vh 10%;
+    background: #fafafa;
+}
+
+.testimonials__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.testimonial {
+    background: white;
+    padding: 1rem;
+    flex: 1;
+    min-width: 220px;
+    border-radius: 6px;
+}
+
+/* CONTACT */
+
+.contact {
+    padding: 5vh 10%;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form__input,
+.form__textarea {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+}
+
+.form__button {
+    padding: 0.8rem;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width:768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials__list {
+        flex-direction: column;
+    }
+}
