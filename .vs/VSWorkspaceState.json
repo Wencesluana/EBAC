@@ -1,12 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Front\\pet",
+    "\\Front",
+    "\\Front\\veti",
+    "\\Front\\veti\\src",
+    "\\Front\\veti\\src\\assets",
+    "\\Front\\veti\\src\\components",
+    "\\Front\\veti\\src\\pages",
     "\\UDEMY",
     "\\UDEMY\\locacao",
     "\\UDEMY\\locacao\\sem interface",
     "\\UDEMY\\locacao\\sem interface\\Entities"
   ],
-  "SelectedNode": "\\UDEMY\\locacao\\sem interface\\Entities\\Invoice.cs",
+  "SelectedNode": "\\Front\\veti\\src\\pages\\home.jsx",
   "PreviewInSolutionExplorer": false
 }

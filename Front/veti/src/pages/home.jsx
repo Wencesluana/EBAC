@@ -21,25 +21,17 @@ function Home() {
                     preco: 3500,
                     descricao: 'Notebook potente',
                     imagem: 'https://via.placeholder.com/150'
-                },
-                {
-                    nome: 'Mouse',
-                    preco: 80,
-                    descricao: 'Mouse sem fio',
-                    imagem: 'https://via.placeholder.com/150'
                 }
             ]);
             setLoading(false);
         }, 2000);
     }, []);
 
-    // Atualizar formulário
     function handleChange(e) {
         const { name, value } = e.target;
         setForm({ ...form, [name]: value });
     }
 
-    // Enviar formulário
     function handleSubmit(e) {
         e.preventDefault();
 
@@ -62,7 +54,6 @@ function Home() {
         <div>
             <h1>Catálogo de Produtos</h1>
 
-            {/* Formulário */}
             <form onSubmit={handleSubmit}>
                 <input
                     name="nome"
@@ -78,7 +69,7 @@ function Home() {
                 />
                 <input
                     name="imagem"
-                    placeholder="URL da imagem"
+                    placeholder="Imagem (URL)"
                     value={form.imagem}
                     onChange={handleChange}
                 />
@@ -91,19 +82,12 @@ function Home() {
                 <button type="submit">Adicionar</button>
             </form>
 
-            {/* Loading */}
             {loading ? (
                 <p>Carregando...</p>
             ) : (
                 <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                     {produtos.map((produto, index) => (
-                        <ProdutoCard
-                            key={index}
-                            nome={produto.nome}
-                            preco={produto.preco}
-                            descricao={produto.descricao}
-                            imagem={produto.imagem}
-                        />
+                        <ProdutoCard key={index} {...produto} />
                     ))}
                 </div>
             )}
