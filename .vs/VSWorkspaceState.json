@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Front",
-    "\\Front\\veti",
-    "\\Front\\veti\\src",
-    "\\Front\\veti\\src\\components",
-    "\\Front\\veti\\src\\pages",
+    "\\Front\\ToDo",
+    "\\Front\\ToDo\\components",
+    "\\Front\\ToDo\\hooks",
     "\\UDEMY",
     "\\UDEMY\\locacao",
     "\\UDEMY\\locacao\\sem interface",
     "\\UDEMY\\locacao\\sem interface\\Entities"
   ],
-  "SelectedNode": "\\Front\\veti\\src\\components\\ProdutoCard.css",
   "PreviewInSolutionExplorer": false
 }
