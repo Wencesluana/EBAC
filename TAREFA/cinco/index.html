@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Jogo de adivinhação</title>
+    </head>
+    <body>
+        <h1>Jogo de adivinhação</h1>
+        <p>Faça sua aposta! Tente adivinhar o número sorteado. Mas cuidados, as chances são limitadas.</p>
+        <form>
+        <label>Palpíte</label><br>
+        <input type="number" name="palpite" id="palpite"><br><br>
+        <button type="button" onclick="adivinhar()">Chutar</button>
+    </form>
+    <p id="mensagem"></p>
+    <p id="tentativa"></p>
+    </body>
+    <script src="script.js"></script>
+</html>
